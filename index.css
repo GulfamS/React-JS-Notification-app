@@ -1,0 +1,93 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-center;
+  align-items: flex-center;
+  padding: 40px;
+  width: 26%;
+}
+
+@media screen and (min-width: 768px), (max-width: 1200px) {
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-center;
+    align-items: flex-center;
+    width: 50%;
+  }
+}
+
+.heading-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #0f172a;
+  font-size: 28px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.icon {
+  height: 20px;
+  padding-right: 10px;
+}
+
+.message {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.notification-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 400px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .notification-list-container {
+    width: 70px;
+  }
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.primary-bg {
+  background-color: #0b69ff;
+}
+
+.success-bg {
+  background-color: #2dca73;
+}
+
+.warning-bg {
+  background-color: #ffb800;
+}
+
+.error-bg {
+  background-color: #ff0b37;
+}
